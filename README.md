@@ -81,9 +81,9 @@ This is the main menu, which is the first page you will see as you open the prog
 Here are some of the features that can be added to the student management system to improve it further:
 * **Graphical User Interface (GUI)** - Instead of having the program run on the terminal, we can use libraries like Tkinter or PyQt to make the program easy to use and interact with
 * **Web technologies** - The program can also be run as a website using web frameworks like Flask and languages like HTML, CSS and JavaScript. Also great for building a GUI
-* **Classes** - Users can create classes where students can be added. To add on to this further, users can also assign grades to students for each class they take
+* **Classes** - Users can create classes where students can be added and grouped. To add on to this further, users can also assign grades to students for each class they take
 * **Progress system** - Progress of students for each week, term or semester can be saved and then displayed in the form of a graph so they can be viewed. Best added with a GUI.
-* **More advanced grading system** - The program can be configured so that grades are automatically given based on percentage of marks received.
+* **More advanced grading system** - The program can be configured so that grades are automatically given based on percentage of marks received. (THIS IS ADDED IN THIS NEW VERSION)
 
 
 ## Acknowledgements
