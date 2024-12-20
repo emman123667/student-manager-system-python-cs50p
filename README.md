@@ -44,7 +44,7 @@ CREATE TABLE grades(
 
 ## config.py
 
-This is the configuration file that is imported in the main program (project.py). Inside the file, there is a constant called "SCHOOLNAME". This will store the name of the school that can be used to generate registration IDs for new students.
+This is the configuration file that is imported in the main program (project.py). Inside the file, there is a variable called "SCHOOLNAME". This will store the name of the school that can be used to generate registration IDs for new students.
 
 How to change:<br>
 ``SCHOOLNAME = "<school name>"``<br>
@@ -52,9 +52,31 @@ How to change:<br>
 
 Remember to always surround the name of your school with quotation marks ("")!
 
+There is also another variable called "GRADES". This stores the percentages needed to get to achieve a certain grade. The variable will look like this in the file by default. The actual grade is stored on the left column where you can see the grades "A", "B", "C" etc., while the percentage needed to get them is stored on the right column:
+```
+GRADES = {
+    "A": 0.90,
+    "B": 0.70,
+    "C": 0.60,
+    "D": 0.50,
+    "E": 0.30,
+    "F": 0.10,
+}
+```
+
+## student.py
+
+This is used to handle student details and store them in the database. It has several methods to handle adding, retrieving, ediing and deleting student details from the database.
+
+## grade.py
+
+This is used to handle student grades. It has methods to handle adding and retrieving student grades from the database.
+
 ## project.py
 
-This is the main file and it contains the entire functionality and interface of the program. It consists of several different functions.
+This is the main file and it contains the entire functionality and interface of the program. It consists of several methods to handle user input, and it imports the rest of the files within the project directory to put everything together
+
+
 
 ### How to use this program
 
