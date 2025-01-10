@@ -1,8 +1,0 @@
-indented code - more detail to distinguish lines of code that belong to a specific block from those that don't. 
-indentation allows developers to quickly know that there is a code block to deal with + where a code block 
-starts and ends
-
-unindented code - more difficult to read. the developer has to pay attention to each line of code and 
-each code block like "if", "else" and loop statements and how they wrap certain lines of code. the programmer 
-also ends up accidentally writing code in the wrong code blocks or outside the correct blocks unless the developer 
-actually looks for them
